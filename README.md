@@ -1,4 +1,4 @@
-# mask_formatter
+# Text_Input_formatter
 
 Another pure dart package for masked text. 
 Implemented as [TextInputFormtter](https://docs.flutter.io/flutter/services/TextInputFormatter-class.html)
