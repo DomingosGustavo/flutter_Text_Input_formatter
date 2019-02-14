@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:mask_formatter/mask_formatter.dart';
+import 'package:text_input_mask_formatter/text_input_mask_formatter.dart';
 import 'mask_formatter_test.dart';
 
 class TestApp extends StatefulWidget {

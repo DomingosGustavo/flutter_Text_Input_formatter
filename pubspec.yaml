@@ -1,8 +1,8 @@
-name: mask_formatter
+name: text_input_mask_formatter
 description: Class that extends TextInputFormatter and makes pure dart masking in flutter simpler!
 version: 0.0.1
-author: ivanpadavan <redsool@gmail.com>
-homepage: https://github.com/ivanpadavan/flutter_mask_formatter
+author: Domingos <dgcarvalhobrito@gmail.com>
+homepage: https://github.com/DomingosGustavo/flutter_Text_Input_formatter 
 
 dependencies:
   flutter:

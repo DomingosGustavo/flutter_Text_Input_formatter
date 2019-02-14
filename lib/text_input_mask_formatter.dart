@@ -1,4 +1,5 @@
-library mask_formatter;
+library text_input_mask_formatter;
+
 import 'package:flutter/services.dart';
 
 class MaskTextInputFormatter extends TextInputFormatter {
@@ -18,7 +19,7 @@ class MaskTextInputFormatter extends TextInputFormatter {
   String getEscapedString(String inputText) {
     _maskList.reversed
         .where((index) =>
-    index < inputText.length && _substringIsMask(inputText, index))
+            index < inputText.length && _substringIsMask(inputText, index))
         .forEach((index) {
       inputText = inputText.substring(0, index) +
           inputText.substring(index + _maskMap[index].length);
